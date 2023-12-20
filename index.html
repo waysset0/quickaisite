@@ -1,0 +1,329 @@
+<!--
+  | Website designed by alwaysluxury (https://luxurydev.eu)
+  | This project is open source: https://github.com/alwaysluxury/basic-html-website
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QuickAI Site</title>
+  <link rel="icon" href="assets/quickai.ico" type="assets/quickai.ico">
+  <link rel="stylesheet" href="assets/css/bulma.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="assets/js/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+
+  <!-- Back To Top Start -->
+  <a id="backtotop" data-tippy-content="Back To Top.">
+    <i class="fa-solid fa-angle-up has-text-white fa-2xl mt-5"></i>
+  </a>
+  <!-- Back To Top End -->
+
+  <!-- Navbar Start -->
+
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+
+    <div class="navbar-brand mt-2 mb-2">
+
+
+
+
+      <!-- or if you want to use image -->
+      <!-- <img
+            src="image link or path"
+            width="112"
+            height="28"
+          /> -->
+
+      <a role="button" class="navbar-burger has-text-white" data-target="navMenu" aria-label="menu"
+        aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a href="#" class="navbar-item is-tab">
+          Home
+        </a>
+
+        <a href="#features" class="navbar-item is-tab">
+          Features
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="https://dsc.gg/quickaibot" class="navbar-item is-tab" target="_blank">
+          <i class="fa-brands fa-discord"></i>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar End -->
+
+  <!-- Hero Section Start -->
+
+  <section class="hero bg-base is-fullheight">
+
+    <div class="hero-body">
+
+      <div class="">
+        <div class="columns">
+
+          <div class="column mr-6 mt-12" data-aos="fade-up">
+            <p class="title has-text-white has-text-weight-bold" style="font-family: 'Request Coffee', inherit">
+              QuickAI
+            </p>
+            <p class="subtitle has-text-grey-light is-size-6 mt-3">
+              Hi! I am QuickAI, designed to answer questions and help solve problems.<br>My function is to process user
+              requests and provide information on various topics.<br>I can also execute commands, for example, search
+              for information on the Internet or give advice.<br>If you have any questions, feel free to ask on the
+              support server!
+            </p>
+
+            <div class="buttons">
+              <a
+                href="https://discord.com/oauth2/authorize?client_id=950691811561701416&scope=bot&permissions=448824466497">
+                <button class="tooltip">
+                  <i class="fa-brands fa-discord"></i>
+                  <strong style="color: #FFF"> Add a Bot</strong>
+              </a>
+              </button>
+
+
+
+
+
+            </div>
+          </div>
+          <!-- If you want image with small animation on the side <div class="column mt-6" data-aos="fade-left">
+              <img
+                class="image has-image-centered stayright mt-4"
+                src=""
+                alt="showcase"
+                style="width: 50rem;"
+              />
+            </div> -->
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="has-text-centered" data-tippy-content="Scroll Down">
+      <a href="#features"><i class="fa-solid fa-circle-chevron-down fa-lg vert-move2"></i></a>
+    </div>
+
+    <br>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Hero Waves Start -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#0c0d0d" fill-opacity="1"
+      d="M0,288L24,261.3C48,235,96,181,144,154.7C192,128,240,128,288,149.3C336,171,384,213,432,202.7C480,192,528,128,576,133.3C624,139,672,213,720,213.3C768,213,816,139,864,101.3C912,64,960,64,1008,106.7C1056,149,1104,235,1152,240C1200,245,1248,171,1296,144C1344,117,1392,139,1416,149.3L1440,160L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z">
+    </path>
+  </svg>
+  <!-- Hero Waves End -->
+
+  <!-- Features Section Start -->
+  <section id="features" class="section mt-6">
+    <div class="has-text-centered">
+      <h1 class="title lined">Features</h1>
+      <div class="line line-center blurple"></div>
+    </div>
+
+    <!-- single feature start (Left) -->
+    <div class="single-feature">
+
+
+      <div class="columns mt-6">
+        <div class="column mr-6">
+          <h4 class="title"><span class="blurple">Language Understanding</span></h4>
+          <p class="subtitle mt-3" style="font-family: 'Request Coffee', inherit">
+            I am able to understand and process queries in natural language, which allows me to provide accurate and
+            useful answers.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <!-- single feature end (Left) -->
+
+    <!-- single feature start (Right) -->
+    <div class="single-feature">
+
+
+      <div class="columns mt-6">
+        <div class="column" data-aos="fade-right">
+
+        </div>
+        <div class="column">
+          <h4 class="title">
+            <span class="has-text-primary">Flexibility</span>
+          </h4>
+          <p class="subtitle mt-3" style="font-family: 'Request Coffee', inherit">
+            I can help in various fields, from technical support to searching for information on the Internet, thanks to
+            my extensive knowledge base.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- single feature end (Right) -->
+
+    <!-- single feature start (Left) -->
+    <div class="single-feature">
+
+
+      <div class="columns mt-6">
+        <div class="column mr-6">
+          <h4 class="title">
+            <span class="has-text-warning">Speed</span>
+          </h4>
+          <p class="subtitle mt-3" style="font-family: 'Request Coffee', inherit">
+            Thanks to the powerful computing capabilities, I can answer questions quickly and efficiently.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <!-- single feature end (Left) -->
+
+    <!-- single feature start (Right) -->
+
+    <div class="single-feature">
+
+
+      <div class="columns mt-6">
+        <div class="column" data-aos="fade-right">
+
+        </div>
+        <div class="column">
+          <h4 class="title">
+            <span class="has-text-info">Accuracy</span>
+          </h4>
+          <p class="subtitle mt-3" style="font-family: 'Request Coffee', inherit">
+            My main goal is to provide accurate and verified information to solve problems and answer questions.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="single-feature">
+
+      <div class="columns mt-6">
+        <div class="column mr-6">
+          <h4 class="title">
+            <span class="blurple">Entertainment features</span>
+          </h4>
+          <p class="subtitle mt-3" style="font-family: 'Request Coffee', inherit">
+            I can keep the conversation going with jokes, interesting facts, or even riddles.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="single-feature">
+
+
+      <!-- single feature end (Right) -->
+  </section>
+  <!-- Features Section End -->
+
+  <!-- Invite Section Start -->
+  <section class="section mt-6">
+    <div class="columns">
+      <div class="column has-text-left">
+        <p class="title has-text-weight-bold">
+          Ready to try <span style="color: #9f5afd;">QuickAI</span>?
+        </p>
+        <p class="subtitle mt-3 has-text-gray">
+          Hi! I am QuickAI, designed to answer questions and help solve problems.<br>My function is to process user
+          requests and provide information on various topics.<br>I can also execute commands, for example, search for
+          information on the Internet or give advice.<br>If you have any questions, feel free to ask on the support
+          server!
+        </p>
+        <a href="https://discord.com/oauth2/authorize?client_id=950691811561701416&scope=bot&permissions=448824466497">
+          <button class="tooltip">
+            <i class="fa-brands fa-discord"></i>
+            <strong style="color: #FFF"> Add a Bot</strong>
+        </a>
+        </button>
+      </div>
+
+      <div class="column"></div>
+    </div>
+  </section>
+  <!-- Invite Section End -->
+
+  <!-- Footer Section Start -->
+  <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(159,90,253,0.7)" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(159,90,253,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(159,90,253,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#9f5afd" />
+      </g>
+    </svg>
+  </div>
+  <footer style="height: 150px;" class="page-footer font-small unique-color-dark pt-4">
+
+
+
+
+    <div style="float: left;
+  width: 50%;
+  padding: 10px;">
+
+      <ul>
+        <!-- <img src="" width="52" 
+            height="28" style="border-radius: 50%;pointer-events: none;"> -->
+        <p>
+          <span class="has-text-weight-bold">QuickAI</span>
+          <br />
+          &copy; Copyright 2023 QuickAI.
+        </p>
+      </ul>
+    </div>
+    <div style="float: left;
+  width: 50%;
+  padding: 10px;">
+
+      <ul>
+        <span class="has-text-weight-bold">Links</span>
+        <li><a href="https://dsc.gg/quickaibot">Support Server</a></li>
+      </ul>
+    </div>
+
+    </div>
+
+  </footer>
+
+  <!-- Footer Section End -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
