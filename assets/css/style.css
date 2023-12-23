@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url('https://fonts.cdnfonts.com/css/request-coffee');
 
+.iconquickai {
+  margin-bottom: -6px;
+  width: 35px;
+  height: auto;
+}
+
 .footer-clean {
   padding:50px 0;
   color:#f8f9fa;
@@ -358,6 +364,7 @@ button {
  background-color: rgba(100,77,237,0.50);
  border-radius: 1.25em;
  transition: all 0.2s linear;
+ margin-right: 20px;
 }
 
 button:hover {
