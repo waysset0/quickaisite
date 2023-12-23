@@ -210,7 +210,7 @@ nav.nav-w {
 .line {
   background: #00d1b2;
   background: #00d1b2;
-  width: 150px;
+  width: 100px;
   height: 5px;
 }
 
@@ -230,7 +230,7 @@ nav.nav-w {
 }
 
 .title.lined {
-  margin-bottom: 0px;
+  margin-bottom: 0.5px;
 }
 
 .vert-move {
