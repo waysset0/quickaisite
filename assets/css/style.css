@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url('https://fonts.cdnfonts.com/css/request-coffee');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+/* 
+
+font-family: 'Comfortaa', sans-serif;
+
+*/
 
 .iconquickai {
-  margin-bottom: -6px;
-  width: 35px;
+  margin-bottom: -7.5px;
+  width: 40px;
   height: auto;
 }
 
@@ -62,7 +69,7 @@
   opacity:0.75;
 }
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Comfortaa', sans-serif;
 }
 
 html {
@@ -215,7 +222,7 @@ nav.nav-w {
 .line {
   background: #00d1b2;
   background: #00d1b2;
-  width: 100px;
+  width: 144px;
   height: 5px;
 }
 
@@ -383,7 +390,7 @@ button:hover {
 }
 
 button {
-  font-family: inherit;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 18px;
   background: linear-gradient(to bottom, #9f5afd 0%,#cda9fe 100%);
   color: white;
